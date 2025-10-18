@@ -1,0 +1,47 @@
+name: Check Tor Hidden Services
+
+on:
+  schedule:
+    # Run every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allow manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  check-services:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install Tor
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y tor
+
+    - name: Start Tor service
+      run: |
+        sudo service tor start
+        sleep 10 # Wait for Tor to bootstrap
+
+    - name: Install Python dependencies
+      run: |
+        pip install requests PySocks
+
+    - name: Check services and update README
+      run: python check_services.py
+
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update Tor service status [automated]" && git push)
