@@ -2,18 +2,25 @@ HSC
 
 ## 🧅 Tor Hidden Services Status
 
-*Last checked: 2026-02-22 08:07:56 UTC*
+*Last checked: 2026-02-22 09:08:09 UTC*
 
-### ✅ Online Services (0)
+### ✅ Online Services (3)
 
-*No services are currently online.*
+- **ProtonMail**
+  - URL: `https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion`
+  - Encrypted email service
 
-### ❌ Offline Services (5)
+- **BBC News**
+  - URL: `https://www.bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion`
+  - International news
+
+- **HackLiberty Writers**
+  - URL: `http://lvgjoige2hl5qm5xcxhxuulyhdnq2wk3277eu34zpukxvacmvwva6vid.onion`
+  - WriteFreely instance
+
+### ❌ Offline Services (2)
 
 - **DuckDuckGo** - `https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion`
-- **ProtonMail** - `https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion`
 - **The New York Times** - `https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion`
-- **BBC News** - `https://www.bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion`
-- **HackLiberty Writers** - `http://lvgjoige2hl5qm5xcxhxuulyhdnq2wk3277eu34zpukxvacmvwva6vid.onion`
 
 ---
