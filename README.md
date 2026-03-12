@@ -2,13 +2,9 @@ HSC
 
 ## 🧅 Tor Hidden Services Status
 
-*Last checked: 2026-03-12 22:05:17 UTC*
+*Last checked: 2026-03-12 23:06:34 UTC*
 
-### ✅ Online Services (4)
-
-- **DuckDuckGo**
-  - URL: `https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion`
-  - Privacy-focused search engine
+### ✅ Online Services (3)
 
 - **ProtonMail**
   - URL: `https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion`
@@ -22,8 +18,9 @@ HSC
   - URL: `http://lvgjoige2hl5qm5xcxhxuulyhdnq2wk3277eu34zpukxvacmvwva6vid.onion`
   - WriteFreely instance
 
-### ❌ Offline Services (1)
+### ❌ Offline Services (2)
 
+- **DuckDuckGo** - `https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion`
 - **The New York Times** - `https://www.nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion`
 
 ---
